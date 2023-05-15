@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Contains a helper function that returns starting and ending
 indices for particluar pagination parameters
