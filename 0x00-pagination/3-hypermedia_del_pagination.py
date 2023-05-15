@@ -44,7 +44,7 @@ class Server:
         hyper_index = {}
         hyper_index['page_size'] = page_size
         if index:
-            assert(type(index) == int and 0 < index <= len(index_data)), \
+            assert(type(index) == int and 0 <= index <= len(index_data)), \
                 f"index should be less than len of dataset"
             hyper_index['index'] = index
             curr_index = index
