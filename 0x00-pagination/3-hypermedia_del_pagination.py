@@ -43,7 +43,7 @@ class Server:
         index_data = self.indexed_dataset()
         hyper_index = {}
         hyper_index['page_size'] = page_size
-        if index:
+        if index or index == 0:
             assert(type(index) == int and 0 <= index <= len(index_data)), \
                 f"index should be less than len of dataset"
             hyper_index['index'] = index
