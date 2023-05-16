@@ -59,12 +59,12 @@ class FIFOCache(BaseCaching):
         discard First item in dictionary
         """
         if key and item:
-            self.cache_data[key] = item
-        if len(self.cache_data) > self.limit:
-            for key in self.cache_data.keys():
-                print("DISCARD: {}".format(key))
-                del self.cache_data[key]
-                break
+            self.cache_data[key] = item           
+            if len(self.cache_data) > self.limit:
+                for key in self.cache_data.keys():
+                    print("DISCARD: {}".format(key))
+                    del self.cache_data[key]
+                    break
 
     def get(self, key):
         """
