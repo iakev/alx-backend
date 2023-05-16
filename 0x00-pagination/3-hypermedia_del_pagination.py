@@ -40,6 +40,9 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
+        """
+        Returns a hyper-media like response that is deletion resilient
+        """
         index_data = self.indexed_dataset()
         hyper_index = {}
         hyper_index['page_size'] = page_size
