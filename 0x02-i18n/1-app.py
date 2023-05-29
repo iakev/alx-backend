@@ -14,13 +14,12 @@ class Config:
     """
     class to configure available languages in the app
     """
-
     LANGUAGES = ["en", "fr"]
-    TIMEZONE = ["UTC"]
+    BABEL_DEFAULT_LOCALE = "en"
+    BABEL_DEFAULT_TIMEZONE = "UTC"
 
 
-app.config["BABEL_DEFAULT_LOCALE"] = Config.LANGUAGES[0]
-app.config["BABEL_DEFAULT_TIMEZONE"] = Config.TIMEZONE[0]
+app.config.from_object(Config)
 @app.route("/")
 def hello() -> str:
     """
