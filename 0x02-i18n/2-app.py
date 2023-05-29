@@ -25,7 +25,7 @@ def hello() -> str:
     """
     root route that just renders a template
     """
-    return render_template('1-index.html')
+    return render_template('2-index.html')
 
 
 @babel.localeselector
