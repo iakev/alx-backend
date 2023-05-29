@@ -45,8 +45,7 @@ def get_locale() -> Optional[str]:
     languages
     """
     translation_lang = request.args.get('locale')
-    if g.user:
-        user_locale = g.user.get('locale')
+    user_locale = g.user.get('locale') if g.user else None
     header_locale = request.headers.get('locale')
     if translation_lang in app.config["LANGUAGES"]:
         return translation_lang
