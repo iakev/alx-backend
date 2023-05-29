@@ -1,14 +1,14 @@
 # English translations for PROJECT.
 # Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# iakev kirimikmwongera@gmail.com, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-05-29 04:37-0700\n"
-"PO-Revision-Date: 2023-05-29 04:42-0700\n"
+"POT-Creation-Date: 2023-05-29 06:05-0700\n"
+"PO-Revision-Date: 2023-05-29 06:06-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
