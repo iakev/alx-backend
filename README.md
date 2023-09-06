@@ -52,10 +52,10 @@ Your contributions are valuable and can help others in the development community
 
 ## License
 
-This project and its contents are licensed under the MIT License. For details, see the [LICENSE]() file in this repository.
+This project and its contents are licensed under the MIT License. For details, see the [LICENSE](https://github.com/iakev/alx-backend/blob/main/LICENSE.md) file in this repository.
 
 ## Author
 
-** Kevin Mwongera **: [Email](kirimikmwongera@gmail.com)
+**Kevin Mwongera**: [Email](kirimikmwongera@gmail.com)
 
 Happy coding
