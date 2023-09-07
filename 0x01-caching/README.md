@@ -46,11 +46,11 @@ Read or watch:
 
 - [Caching in Web Applications](https://example.com/caching-web-applications)
 - [LRU Cache (Least Recently Used Cache)](https://example.com/lru-cache)
-- [Cache Replacement Policies - FIFO](https://example.com/cache-replacement-fifo)
-- [Cache Replacement Policies - LIFO](https://example.com/cache-replacement-lifo)
-- [Cache Replacement Policies - LRU](https://example.com/cache-replacement-lru)
-- [Cache Replacement Policies - MRU](https://example.com/cache-replacement-mru)
-- [Cache Replacement Policies - LFU](https://example.com/cache-replacement-lfu)
+- [Cache Replacement Policies - FIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#First_In_First_Out_%28FIFO%29)
+- [Cache Replacement Policies - LIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#Last_In_First_Out_%28LIFO%29)
+- [Cache Replacement Policies - LRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_%28LRU%29)
+- [Cache Replacement Policies - MRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Most_Recently_Used_%28MRU%29)
+- [Cache Replacement Policies - LFU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-Frequently_Used_%28LFU%29)
 
 Feel free to explore the scripts and resources in this directory to learn more about caching in backend development.
    
